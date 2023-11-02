@@ -30,9 +30,8 @@ var userArray = [];
 // funtion to calculate user to assign task and oppertunity
 function assign(arr){
     const people = [
-        { name: 'Ben Wright', percentage: 50, target: 5 },
-        { name: 'Nicolas Comin Marques', percentage: 40, target: 4 },
-        { name: 'Vy Huynh', percentage: 10, target: 1 }
+        { name: 'Nicolas Comin Marques', percentage: 50, target: 5 },
+        { name: 'Vy Huynh', percentage: 50, target: 5 }
     ]; 
 
     // Calculate how many times each person has been assigned in the last 10 tasks
