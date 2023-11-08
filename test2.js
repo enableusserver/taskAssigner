@@ -26,7 +26,22 @@ const axiosConfig = {
 };
 
 var userArray = [];
-
+//2nd function to assign in 25% order
+function assign2(arr){
+  const people = {'Nicolas Comin Marques','Vy Huynh','Diogo Ferreira','Subha Sri'};
+  if(arr[0]== 'Nicolas Comin Marques'){
+      return 'Vy Huynh';
+  }
+  else if(arr[0]== 'Vy Huynh'){
+      return 'Diogo Ferreira';
+  }
+  else if(arr[0]== 'Diogo Ferreira'){
+      return 'Subha Sri';
+  }
+  else if(arr[0]== 'Subha Sri'){
+      return 'Nicolas Comin Marques';
+  }
+}
 // funtion to calculate user to assign task and oppertunity
 function assign(arr){
     const people = [
@@ -70,7 +85,7 @@ app.get('/user', async (req, res) => {
         // Add more fields as needed
       });
       console.log(userArray)
-      userToAssign = assign(userArray)
+      userToAssign = assign2(userArray)
       console.log(userToAssign)
       return userToAssign
     })
