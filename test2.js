@@ -28,7 +28,6 @@ const axiosConfig = {
 var userArray = [];
 //2nd function to assign in 25% order
 function assign2(arr){
-  const people = {'Nicolas Comin Marques','Vy Huynh','Diogo Ferreira','Subha Sri'};
   if(arr[0]== 'Nicolas Comin Marques'){
       return 'Vy Huynh';
   }
