@@ -40,6 +40,9 @@ function assign2(arr){
   else if(arr[0]== 'Subha Sri'){
       return 'Nicolas Comin Marques';
   }
+  else if(arr[0] == 'Ben  Wright'){
+      return 'Nicolas Comin Marques';
+  }
 }
 // funtion to calculate user to assign task and oppertunity
 function assign(arr){
